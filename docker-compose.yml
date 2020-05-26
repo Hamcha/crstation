@@ -1,0 +1,28 @@
+version: "2"
+services:
+  tgstation:
+    image: hamcha/tgstation:latest
+    build: .
+    ports:
+      - 1337:1337
+    restart: always
+    volumes:
+      - "tgstation-config:/tgstation/config"
+      - "tgstation-data:/tgstation/data"
+    labels: []
+  mariadb:
+    image: mariadb
+    restart: always
+    volumes:
+      - "mariadb-data:/var/lib/mysql"
+      - "./SQL/tgstation_schema.sql:/docker-entrypoint-initdb.d/tgstation_schema.sql:ro"
+    environment:
+      - MYSQL_RANDOM_ROOT_PASSWORD=yes
+      - MYSQL_USER=tgstation
+      - MYSQL_PASSWORD=tgpassword
+      - MYSQL_DATABASE=tgstation
+
+volumes:
+  tgstation-config:
+  tgstation-data:
+  mariadb-data:
