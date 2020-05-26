@@ -48,3 +48,11 @@ endmap
 
 map multiz_debug
 endmap
+
+map omegastation
+	votable
+endmap
+
+map cramstation
+	votable
+endmap
