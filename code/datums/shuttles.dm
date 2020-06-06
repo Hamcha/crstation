@@ -576,6 +576,10 @@
 	suffix = "omega"
 	name = "arrival shuttle (Omega)"
 
+/datum/map_template/shuttle/arrival/ert_restoration
+	suffix = "ert_restoration"
+	name = "ert shuttle (NoStation)"
+
 /datum/map_template/shuttle/aux_base/default
 	suffix = "default"
 	name = "auxilliary base (Default)"
