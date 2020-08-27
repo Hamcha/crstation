@@ -4382,12 +4382,6 @@
 "DS" = (
 /turf/open/floor/carpet/black/airless,
 /area/ruin/unpowered)
-"DX" = (
-/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
-	dir = 10
-	},
-/turf/open/space,
-/area/ruin/unpowered)
 "Ea" = (
 /obj/effect/turf_decal/trimline/yellow/filled/line{
 	dir = 8
@@ -6440,9 +6434,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/maintenance/central)
-"Sf" = (
-/turf/open/space/basic,
-/area/space/nearstation)
 "Sh" = (
 /obj/effect/mob_spawn/human/clown/corpse,
 /obj/effect/decal/cleanable/blood,
@@ -7185,13 +7176,6 @@
 /obj/effect/mob_spawn/human/skeleton,
 /turf/open/floor/plasteel/dark/airless,
 /area/ruin/unpowered)
-"Xr" = (
-/obj/structure/lattice/catwalk,
-/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
-	dir = 4
-	},
-/turf/open/space/basic,
-/area/space/nearstation)
 "Xs" = (
 /obj/machinery/power/supermatter_crystal/engine,
 /turf/open/floor/engine,
@@ -31174,11 +31158,11 @@ RW
 JA
 RW
 tE
-Sf
-Xr
-Xr
-Xr
-Sf
+sU
+vo
+vo
+vo
+LT
 nv
 nv
 nv
@@ -31431,11 +31415,11 @@ ZR
 db
 bb
 bS
-sU
-vo
-vo
-vo
-LT
+Qo
+Fp
+zN
+Fp
+Ev
 nv
 nv
 nv
@@ -31688,11 +31672,11 @@ Ch
 Ch
 RW
 WV
-Qo
+nG
 Fp
 zN
 Fp
-Ev
+LT
 nv
 nv
 nv
@@ -31945,11 +31929,11 @@ aj
 aj
 aj
 WV
-nG
-Fp
-zN
-Fp
-LT
+Zb
+vo
+vo
+vo
+Ev
 nv
 nv
 nv
@@ -32202,11 +32186,11 @@ GF
 aj
 bJ
 nv
-Zb
-vo
-vo
-vo
-Ev
+nG
+Fp
+zN
+Fp
+LT
 nv
 nv
 nv
@@ -32459,11 +32443,11 @@ pq
 aj
 bJ
 bJ
-nG
+ih
 Fp
-zN
 Fp
-LT
+Fp
+Ev
 nv
 nv
 nv
@@ -32716,11 +32700,11 @@ rq
 WV
 WV
 bJ
-ih
-Fp
-Fp
-Fp
-Ev
+nG
+rQ
+Sx
+rQ
+LT
 nv
 nv
 nv
@@ -32973,11 +32957,11 @@ ly
 IL
 WV
 bJ
-DX
-rQ
-Sx
-rQ
-LT
+bJ
+NG
+Ev
+NG
+Ev
 nv
 nv
 nv
@@ -33231,10 +33215,10 @@ Ux
 aj
 bJ
 bJ
-NG
-Ev
-NG
-Ev
+nv
+nv
+nv
+nv
 nv
 nv
 nv
